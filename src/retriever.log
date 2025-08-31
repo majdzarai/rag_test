@@ -1,0 +1,434 @@
+2025-08-24 01:48:45,469 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 01:48:45,471 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 01:48:45,471 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 01:48:45,481 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 01:48:45,483 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 01:48:45,487 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 01:48:45,487 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 01:48:45,488 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 01:48:49,291 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 01:48:49,291 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 01:48:49,291 - api_server - INFO - Successfully loaded retriever from C:\Users\majdz\Downloads\chat-interface\backend\src\..\index
+2025-08-24 01:48:49,296 - api_server - INFO - BH Insurance RAG API started successfully
+2025-08-24 01:50:50,077 - retriever - ERROR - Search failed for query 'Que se passe-t-il si je ne paie pas ma prime ?...': '<=' not supported between instances of 'str' and 'int'
+2025-08-24 01:50:50,077 - api_server - ERROR - Error processing query: Search failed: '<=' not supported between instances of 'str' and 'int'
+2025-08-24 02:00:39,173 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 02:00:39,190 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 02:00:39,192 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 02:00:39,192 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 02:00:39,192 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 02:00:39,192 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 02:00:39,200 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 02:00:39,200 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:00:39,200 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:00:43,975 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 02:00:43,975 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 02:00:43,975 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 02:00:43,977 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:05:32,067 - api_server - ERROR - [a65290df] Chat streaming error: EmbeddingRetriever.search() got an unexpected keyword argument 'k'
+2025-08-24 02:05:53,528 - api_server - ERROR - [0674127e] Chat streaming error: EmbeddingRetriever.search() got an unexpected keyword argument 'k'
+2025-08-24 02:45:35,701 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 02:45:35,723 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 02:45:35,723 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 02:45:35,745 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 02:45:35,746 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 02:45:35,753 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 02:45:35,753 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:45:35,759 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:45:40,327 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 02:45:40,328 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 02:52:55,706 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 02:52:55,707 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 02:52:55,707 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 02:52:55,722 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 02:52:55,723 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 02:52:55,731 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 02:52:55,731 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:52:55,738 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:53:00,109 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 02:53:00,110 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 02:55:19,370 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 02:55:19,372 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 02:55:19,373 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 02:55:19,403 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 02:55:19,404 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 02:55:19,421 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 02:55:19,422 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:55:19,427 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:55:24,740 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 02:55:24,741 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 02:58:46,943 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 02:58:46,944 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 02:58:46,944 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 02:58:46,955 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 02:58:46,955 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 02:58:46,959 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 02:58:46,960 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:58:46,963 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 02:58:50,088 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 02:58:50,089 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:00:20,543 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 03:00:20,544 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 03:00:20,544 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 03:00:20,554 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 03:00:20,554 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 03:00:20,557 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 03:00:20,558 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:00:20,560 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:00:24,325 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 03:00:24,326 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:02:06,377 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 03:02:06,378 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 03:02:06,378 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 03:02:06,388 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 03:02:06,389 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 03:02:06,393 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 03:02:06,393 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:02:06,396 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:02:10,563 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 03:02:10,563 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:19:50,826 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 03:19:50,827 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 03:19:50,827 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 03:19:50,837 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 03:19:50,837 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 03:19:50,841 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 03:19:50,841 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:19:50,844 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:19:54,814 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 03:19:54,815 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:38:49,332 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 03:38:49,345 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 03:38:49,346 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 03:38:49,346 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 03:38:49,351 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 03:38:49,351 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 03:38:49,354 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 03:38:49,354 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:38:49,357 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:38:53,140 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 03:38:53,140 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:38:53,140 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 03:38:53,141 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:39:20,202 - api_server - INFO - [725af0a8] Starting RAG chat - Language: en | Query: 'bonjour...'
+2025-08-24 03:39:20,213 - api_server - ERROR - [725af0a8] Chat streaming error: EmbeddingRetriever.search() got an unexpected keyword argument 'k'
+2025-08-24 03:39:58,122 - api_server - ERROR - [5453fe3a] Chat streaming error: EmbeddingRetriever.search() got an unexpected keyword argument 'k'
+2025-08-24 03:40:24,648 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-24 03:41:01,973 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 03:41:01,983 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 03:41:01,984 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 03:41:01,984 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 03:41:01,988 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 03:41:01,988 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 03:41:01,992 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 03:41:01,992 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:41:01,995 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:41:06,562 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 03:41:06,562 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:41:06,562 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 03:41:06,562 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:41:23,190 - api_server - INFO - [ed8ccad9] Starting RAG chat - Language: en | Query: 'kj\...'
+2025-08-24 03:41:23,195 - api_server - ERROR - [ed8ccad9] Chat streaming error: EmbeddingRetriever.search() got an unexpected keyword argument 'k'
+2025-08-24 03:43:06,367 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-24 03:43:22,818 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 03:43:22,828 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 03:43:22,829 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 03:43:22,829 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 03:43:22,833 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 03:43:22,833 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 03:43:22,836 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 03:43:22,836 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:43:22,839 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:43:25,972 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 03:43:25,972 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:43:25,972 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 03:43:25,972 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:46:32,088 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-24 03:47:02,370 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 03:47:02,379 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 03:47:02,380 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 03:47:02,381 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 03:47:02,384 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 03:47:02,384 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 03:47:02,387 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 03:47:02,387 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:47:02,389 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:47:05,202 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 03:47:05,202 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:47:05,202 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 03:47:05,202 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:47:26,663 - api_server - INFO - [e678f2a0] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 03:47:26,859 - api_server - ERROR - [e678f2a0] Chat streaming error: 'SearchResult' object has no attribute 'get'
+2025-08-24 03:56:16,097 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 03:56:16,117 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 03:56:16,120 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 03:56:16,120 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 03:56:16,123 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 03:56:16,124 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 03:56:16,126 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 03:56:16,127 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:56:16,128 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:56:20,033 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 03:56:20,033 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 03:56:20,034 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 03:56:20,034 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 03:56:56,264 - api_server - INFO - [160796cf] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 03:56:57,806 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 500 Internal Server Error"
+2025-08-24 03:56:57,807 - api_server - ERROR - Ollama streaming error: 500: Ollama API error: 500
+2025-08-24 03:56:57,812 - api_server - INFO - [160796cf] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 1.548s
+2025-08-24 03:57:14,251 - api_server - INFO - [d38ab930] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 03:57:14,965 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 500 Internal Server Error"
+2025-08-24 03:57:14,966 - api_server - ERROR - Ollama streaming error: 500: Ollama API error: 500
+2025-08-24 03:57:14,966 - api_server - INFO - [d38ab930] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 0.715s
+2025-08-24 04:03:43,626 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-24 04:04:39,898 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 04:04:39,910 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 04:04:39,911 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 04:04:39,911 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 04:04:39,916 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 04:04:39,916 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 04:04:39,920 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 04:04:39,920 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 04:04:39,924 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 04:04:43,724 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 04:04:43,724 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 04:04:43,724 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 04:04:43,725 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 04:04:50,357 - api_server - INFO - [7c61394e] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 04:04:51,596 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 04:04:52,042 - api_server - INFO - [7c61394e] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 1.685s
+2025-08-24 04:06:37,840 - api_server - INFO - [d90ba9bf] Starting RAG chat - Language: en | Query: 'hey...'
+2025-08-24 04:06:38,589 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 04:06:39,449 - api_server - INFO - [d90ba9bf] Chat completed - Language: en | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 1.609s
+2025-08-24 04:08:18,769 - api_server - INFO - [fcd18718] Starting RAG chat - Language: en | Query: 'hey...'
+2025-08-24 04:08:19,416 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 04:08:20,123 - api_server - INFO - [fcd18718] Chat completed - Language: en | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 1.354s
+2025-08-24 04:09:59,726 - api_server - INFO - [f9a331eb] Starting RAG chat - Language: en | Query: 'hey...'
+2025-08-24 04:10:00,360 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 04:10:01,065 - api_server - INFO - [f9a331eb] Chat completed - Language: en | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 1.339s
+2025-08-24 04:12:28,537 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 04:12:29,845 - api_server - INFO - [d6cd67d0] Chat completed - Language: en | Citations: 1 | Top files: ['CG ENGINS DE CHANTIERS.txt'] | Latency: 2.217s
+2025-08-24 04:14:06,538 - api_server - INFO - [b417d747] Starting RAG chat - Language: en | Query: 'kiei...'
+2025-08-24 04:14:07,319 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 04:14:08,871 - api_server - INFO - [b417d747] Chat completed - Language: en | Citations: 1 | Top files: ['CG ENGINS DE CHANTIERS.txt'] | Latency: 2.334s
+2025-08-24 04:14:40,765 - api_server - INFO - [d708b45c] Starting RAG chat - Language: en | Query: 'd...'
+2025-08-24 04:14:41,613 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 04:14:44,254 - api_server - INFO - [d708b45c] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 3.489s
+2025-08-24 20:31:06,905 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-24 20:32:15,462 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 20:32:15,474 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 20:32:15,474 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 20:32:15,474 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 20:32:15,480 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 20:32:15,480 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 20:32:15,480 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 20:32:15,480 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:32:15,486 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:32:16,560 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 20:32:16,560 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 20:32:16,568 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 20:32:16,568 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:32:35,596 - api_server - INFO - [dd272187] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:32:44,853 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:32:45,832 - api_server - INFO - [dd272187] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 10.236s
+2025-08-24 20:37:24,746 - api_server - INFO - [ec8a3b15] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:37:25,675 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:37:27,523 - api_server - INFO - [ec8a3b15] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 2.777s
+2025-08-24 20:38:33,961 - api_server - INFO - [5d79cd70] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:38:34,665 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:38:36,760 - api_server - INFO - [5d79cd70] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 2.799s
+2025-08-24 20:38:44,742 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-24 20:40:12,556 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 20:40:12,577 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 20:40:12,585 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 20:40:12,585 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 20:40:12,599 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 20:40:12,599 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 20:40:12,603 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 20:40:12,603 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:40:12,604 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:40:18,332 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 20:40:18,332 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 20:40:18,332 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 20:40:18,332 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:40:24,827 - api_server - INFO - [7a30fd1d] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:40:26,151 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:40:26,483 - api_server - INFO - [7a30fd1d] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 1.655s
+2025-08-24 20:40:39,922 - api_server - INFO - [be2f71ca] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:40:40,594 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:40:42,849 - api_server - INFO - [be2f71ca] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 2.926s
+2025-08-24 20:43:06,433 - api_server - INFO - [3667ce61] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:43:07,221 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:43:08,027 - api_server - INFO - [3667ce61] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 1.593s
+2025-08-24 20:48:42,246 - api_server - INFO - [c81fac02] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:48:52,425 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:48:53,493 - api_server - INFO - [c81fac02] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 11.248s
+2025-08-24 20:48:57,959 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-24 20:49:53,122 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 20:49:53,133 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 20:49:53,133 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 20:49:53,135 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 20:49:53,138 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 20:49:53,138 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 20:49:53,141 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 20:49:53,141 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:49:53,145 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:49:57,928 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 20:49:57,928 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 20:49:57,928 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 20:49:57,928 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:50:10,186 - api_server - INFO - [e75991a5] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:50:11,558 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:50:12,576 - api_server - INFO - [e75991a5] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 2.389s
+2025-08-24 20:57:07,796 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-24 20:57:07,809 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-24 20:57:07,810 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-24 20:57:07,810 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-24 20:57:07,814 - retriever - INFO - Loaded 164 chunk records
+2025-08-24 20:57:07,814 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-24 20:57:07,817 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-24 20:57:07,817 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:57:07,819 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:57:11,858 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-24 20:57:11,858 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-24 20:57:11,858 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-24 20:57:11,858 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-24 20:58:24,893 - api_server - INFO - [d11f2179] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:58:33,457 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:58:35,479 - api_server - INFO - [d11f2179] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 10.585s
+2025-08-24 20:59:19,985 - api_server - INFO - [133d6485] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 20:59:20,662 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 20:59:22,022 - api_server - INFO - [133d6485] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 2.037s
+2025-08-24 21:00:43,015 - api_server - INFO - [1c8bdca2] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 21:00:43,825 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 21:00:47,814 - api_server - INFO - [1c8bdca2] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 4.799s
+2025-08-24 21:03:05,093 - api_server - INFO - [c600f5ca] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-24 21:03:05,967 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 21:03:07,655 - api_server - INFO - [c600f5ca] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 2.562s
+2025-08-24 21:03:27,794 - api_server - INFO - [ccac5be0] Starting RAG chat - Language: en | Query: 'Que se passe-t-il si je ne paie pas ma prime ?...'
+2025-08-24 21:03:29,564 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 21:03:42,731 - api_server - INFO - [ccac5be0] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 14.937s
+2025-08-24 21:03:48,999 - api_server - INFO - [98e5f784] Starting RAG chat - Language: en | Query: 'oui...'
+2025-08-24 21:03:51,305 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 21:04:03,654 - api_server - INFO - [98e5f784] Chat completed - Language: en | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 14.655s
+2025-08-24 21:09:24,721 - api_server - INFO - [f7a969ed] Starting RAG chat - Language: en | Query: 'Quelles sont les obligations de l’assureur ?...'
+2025-08-24 21:09:33,335 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-24 21:09:56,404 - api_server - INFO - [f7a969ed] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 31.683s
+2025-08-25 20:54:33,881 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-25 20:54:33,966 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-25 20:54:33,983 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-25 20:54:33,983 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-25 20:54:34,006 - retriever - INFO - Loaded 164 chunk records
+2025-08-25 20:54:34,006 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-25 20:54:34,010 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-25 20:54:34,010 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 20:54:34,015 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 20:54:42,212 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-25 20:54:42,212 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-25 20:54:42,212 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-25 20:54:42,212 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 20:59:06,086 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-25 20:59:06,097 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-25 20:59:06,099 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-25 20:59:06,099 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-25 20:59:06,103 - retriever - INFO - Loaded 164 chunk records
+2025-08-25 20:59:06,103 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-25 20:59:06,107 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-25 20:59:06,107 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 20:59:06,111 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 20:59:10,662 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-25 20:59:10,669 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-25 20:59:10,669 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-25 20:59:10,669 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:04:00,855 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-25 21:05:13,171 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-25 21:05:13,191 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-25 21:05:13,199 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-25 21:05:13,199 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-25 21:05:13,217 - retriever - INFO - Loaded 164 chunk records
+2025-08-25 21:05:13,218 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-25 21:05:13,221 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-25 21:05:13,222 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:05:13,224 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:05:18,640 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-25 21:05:18,640 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-25 21:05:18,640 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-25 21:05:18,640 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:06:50,702 - api_server - INFO - [3dff39ca] Starting RAG chat - Language: fr | Query: 'Quelles sont les obligations de BH Assurance vis-à...'
+2025-08-25 21:07:02,167 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:07:07,406 - api_server - INFO - [3dff39ca] Chat completed - Language: fr | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 16.704s
+2025-08-25 21:11:12,776 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-25 21:11:12,842 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-25 21:11:12,842 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-25 21:11:12,842 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-25 21:11:12,842 - retriever - INFO - Loaded 164 chunk records
+2025-08-25 21:11:12,842 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-25 21:11:12,858 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-25 21:11:12,858 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:11:12,858 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:11:18,828 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-25 21:11:18,828 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-25 21:11:18,828 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-25 21:11:18,828 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:14:30,133 - api_server - INFO - [197411c7] Starting RAG chat - Language: en | Query: 'test...'
+2025-08-25 21:14:39,757 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:14:40,779 - api_server - INFO - [197411c7] Chat completed - Language: en | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 10.647s
+2025-08-25 21:17:23,265 - api_server - INFO - [ce7181a4] Starting RAG chat - Language: en | Query: 'Que se passe-t-il si je ne paie pas ma prime ?...'
+2025-08-25 21:17:24,177 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:17:26,932 - api_server - INFO - [ce7181a4] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 3.667s
+2025-08-25 21:18:14,588 - api_server - INFO - [13eb1995] Starting RAG chat - Language: en | Query: 'Que se passe-t-il si je ne paie pas ma prime ?...'
+2025-08-25 21:18:15,329 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:18:17,237 - api_server - INFO - [13eb1995] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 2.649s
+2025-08-25 21:18:29,977 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:18:33,072 - api_server - INFO - [f50fd910] Chat completed - Language: en | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 4.688s
+2025-08-25 21:19:19,693 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:19:21,746 - api_server - INFO - [03fc03c0] Chat completed - Language: en | Citations: 1 | Top files: ['CG ENGINS DE CHANTIERS.txt'] | Latency: 3.453s
+2025-08-25 21:19:41,384 - api_server - INFO - [7b8e753a] Starting RAG chat - Language: fr | Query: 'Quelles sont les obligations de l’assuré ?...'
+2025-08-25 21:19:42,962 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:19:45,718 - api_server - INFO - [7b8e753a] Chat completed - Language: fr | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 4.333s
+2025-08-25 21:20:52,404 - api_server - INFO - [6295e382] Starting RAG chat - Language: en | Query: 'Quelles sont les obligations de l’assureur ?...'
+2025-08-25 21:20:54,231 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:20:57,180 - api_server - INFO - [6295e382] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 4.775s
+2025-08-25 21:21:11,871 - api_server - INFO - [61d79572] Starting RAG chat - Language: fr | Query: 'Quelle est la durée minimale d’un contrat d’assura...'
+2025-08-25 21:21:13,679 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:21:15,650 - api_server - INFO - [61d79572] Chat completed - Language: fr | Citations: 1 | Top files: ['CG ENGINS DE CHANTIERS.txt'] | Latency: 3.779s
+2025-08-25 21:21:25,085 - api_server - INFO - [b0a92e31] Starting RAG chat - Language: fr | Query: 'Quelle est la durée minimale d’un contrat d’assura...'
+2025-08-25 21:21:25,812 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-25 21:21:28,036 - api_server - INFO - [b0a92e31] Chat completed - Language: fr | Citations: 1 | Top files: ['CG ENGINS DE CHANTIERS.txt'] | Latency: 2.951s
+2025-08-25 21:21:37,430 - api_server - INFO - Shutting down BH Assurance RAG API...
+2025-08-25 21:22:20,700 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-25 21:22:20,701 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-25 21:22:20,701 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-25 21:22:20,709 - retriever - INFO - Loaded 164 chunk records
+2025-08-25 21:22:20,712 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-25 21:22:20,715 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-25 21:22:20,715 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:22:20,718 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-25 21:22:31,446 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-25 21:22:31,446 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-28 14:15:44,927 - api_server - INFO - Starting BH Assurance RAG API...
+2025-08-28 14:15:45,010 - retriever - INFO - Loading FAISS index: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\index.faiss
+2025-08-28 14:15:45,015 - retriever - INFO - Index loaded: 164 vectors, dimension 384
+2025-08-28 14:15:45,015 - retriever - INFO - Loading chunks: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\chunks.parquet
+2025-08-28 14:15:45,019 - retriever - INFO - Loaded 164 chunk records
+2025-08-28 14:15:45,020 - retriever - INFO - Loading metadata: C:\Users\majdz\Downloads\chat-interface\backend\src\..\index\metadata.parquet
+2025-08-28 14:15:45,024 - retriever - INFO - Model: sentence-transformers/all-MiniLM-L6-v2, Index: flatip, Dim: 384
+2025-08-28 14:15:45,024 - retriever - INFO - Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-28 14:15:45,027 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-28 14:15:50,390 - retriever - INFO - Encoder loaded successfully on cuda
+2025-08-28 14:15:50,390 - retriever - INFO - EmbeddingRetriever initialized successfully
+2025-08-28 14:15:50,390 - api_server - INFO - Loaded FAISS index with 1 chunks
+2025-08-28 14:15:50,390 - api_server - INFO - Using model: sentence-transformers/all-MiniLM-L6-v2
+2025-08-28 14:16:38,504 - api_server - INFO - [4089d8a6] Starting RAG chat - Language: en | Query: 'hi...'
+2025-08-28 14:16:49,056 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-28 14:16:49,971 - api_server - INFO - [4089d8a6] Chat completed - Language: en | Citations: 1 | Top files: ["CG CONTRAT D'ASSURANCE UNIQUE PAR CHANTIER DE LA RESPONSABILITE DECENNALE DANS LE DOMAINE DE LA CONSTRUCTION.txt"] | Latency: 11.467s
+2025-08-28 14:17:51,358 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-28 14:17:54,408 - api_server - INFO - [168a6fad] Chat completed - Language: en | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 4.561s
+2025-08-28 14:18:24,618 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-28 14:18:28,068 - api_server - INFO - [fb1909e0] Chat completed - Language: en | Citations: 1 | Top files: ['CG ENGINS DE CHANTIERS.txt'] | Latency: 4.601s
+2025-08-28 14:19:26,415 - api_server - INFO - [1a830408] Starting RAG chat - Language: fr | Query: 'Quelles sont les obligations de l’assuré ?...'
+2025-08-28 14:19:27,917 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-28 14:19:35,654 - api_server - INFO - [1a830408] Chat completed - Language: fr | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 9.240s
+2025-08-28 14:22:24,139 - api_server - INFO - [50d753a3] Starting RAG chat - Language: fr | Query: 'Quelles sont les obligations de l’assuré ?...'
+2025-08-28 14:22:24,927 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2025-08-28 14:22:29,216 - api_server - INFO - [50d753a3] Chat completed - Language: fr | Citations: 1 | Top files: ['CG ASSURANCE TOUS RISQUES MONTAGE.txt'] | Latency: 5.077s
